@@ -264,7 +264,7 @@ export default function Timeline() {
                           
                           <div className="grid md:grid-cols-2 gap-3">
                             <div>
-                              <h7 className="text-xs font-medium text-green-300 mb-1">关键特性</h7>
+                              <div className="text-xs font-medium text-green-300 mb-1">关键特性</div>
                               <ul className="text-xs text-gray-300 space-y-1">
                                 {service.keyFeatures.map((feature, fidx) => (
                                   <li key={fidx} className="flex items-start">
@@ -275,7 +275,7 @@ export default function Timeline() {
                               </ul>
                             </div>
                             <div>
-                              <h7 className="text-xs font-medium text-purple-300 mb-1">技术原理</h7>
+                              <div className="text-xs font-medium text-purple-300 mb-1">技术原理</div>
                               <ul className="text-xs text-gray-300 space-y-1">
                                 {service.technicalPrinciples.map((principle, pidx) => (
                                   <li key={pidx} className="flex items-start">
